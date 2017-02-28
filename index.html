@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = "utf-8">
+  <title>Modstery</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <meta name ="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="css/messagebox.css" rel="stylesheet" type="text/css">
+
+ <link rel="stylesheet" type="text/css" href="css/stylebox4-1.css">
+  <link rel="stylesheet" type="text/css" href="slide-src/style.css" />
+
+  <link rel="stylesheet" type="text/css" href="css/zoomslider.css" />
+  <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style_map-twitupdate-foot.css">
+  <script src="http://maps.googleapis.com/maps/api/js"></script>
+  <script>
+    function initialize() {
+      var mapProp = {
+      center:new google.maps.LatLng(12.653765, 99.863219),
+      zoom:9,
+      mapTypeId:google.maps.MapTypeId.ROADMAP
+      };
+      var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+  </script>
+
+   <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,300,500,600,700'>
+
+        <link rel="stylesheet" href="css/bots.css">
+        <link rel="stylesheet" href="css/bots1.css">
+        <link rel="stylesheet" href="css/bots2.css">
+</head>
+<body>
+  <header data-zs-src='["banner/8266429353_d07ce461b6_h.jpg", "banner/8266426033_c8c830e351_h.jpg","banner/8270243344_9162d815d3_h.jpg"]'>
+    <div id="menu" style="z-index:999999;">
+      <div class="menu">
+        <div class="member-login">
+        <div class="profilememberhead"></div>
+        <div class="dropdown">
+          <button></button>
+            <ul id="dropdown-list">
+              <!-- <form>
+              <li><input type="text" class="dropdownlogin logindrop" placeholder="ชื่อผู้ใช้"></li>
+              <li><input type="password" class="dropdownlogin passworddrop" placeholder="รหัสผ่าน"></li>
+              <li><a href="#" class="registersection">REGISTER?</a><input type="reset" class="logontoserver" value="เข้าสู่ระบบ"></li>
+              </form>
+              <li><a href="#" class="cnfacebooksignal fa fa-facebook"><i class="setctccctext">login with facebook</i></a></li>
+              <li><a href="#" class="cnfacebooksignal twittercnfsignal fa fa-twitter"><i class="setctccctext">login with twitter</i></a></li> -->
+              <a href="#"><li class="profilesettoggle">Profile</li></a>
+              <a href="#"><li class="profilesettoggle">Topics</li></a>
+              <a href="#"><li class="profilesettoggle">Setting</li></a>
+              <a href="#"><li class="profilesettoggle">sign out</li></a>
+            </ul>
+        </div></div>
+        <div class="menu-phone">
+          <div id="navigator">
+              <ul id="nav">
+                <li class="nav_tab home_tab"> <a href="index.html">
+                  <p style="color: rgba(0,0,0,1);letter-spacing: 2px;">Home</p>
+                  </a> </li>
+                <li class="nav_tab"> <a href="about.html">
+                  <p>About</p>
+                  </a> </li>
+               <li class="nav_tab"> <a href="variety.html">
+                  <p>Variety</p>
+                  </a> </li>
+                <li class="nav_tab"> <a href="connection.html">
+                  <p>Connection</p>
+                  </a> </li>
+              </ul>
+            </div>
+            <div class="menu-icon">
+              <div class="line_one"></div>
+              <div class="line_two"></div>
+              <div class="line_three"></div>
+          </div>
+        </div>
+        <div class="menu-labtop">
+          <ul>
+            <li class="menu-lb sethome"><a href="index.html">HOME</a></li>
+            <li class="menu-lb"><a href="about.html">ABOUT</a></li>
+            <li class="menu-lb"><a href="variety.html">VARIETY</a></li>
+            <li class="menu-lb"><a href="connection.html">CONNECTION</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="logo"><div class="logo"></div></div>
+    <div id="header-content">
+      <h1 class="welcome">Welcome</h1>
+      <h2 class="welcome-first">ยินดีต้อนรับ</h2>
+      <h3 class="welcome-second">เข้าสู่ MADAME MOD | Official Website
+      </h3>
+    </div>
+  </header>
+  <div class="modal-wrapper">
+  <div class="modal">
+    
+    <div class="content">
+    <div class="videocalling">
+      <div class="jq-video">
+        
+               <div class="loadingpage">
+        <div class="loadpic"> <img class="modstery1" src="img/logo.png" alt="Modstery Logo" class="img-responsive logos" style="margin: 0 auto;" /> </div>
+        <div class="demo-progress-11" style="margin-bottom:10px;font-size:16px;opacity:0;font-weight:bold;color:#EE145B;">loadding please wait 0 %</div>
+        </div>
+
+      </div>
+
+       <div id="video-player1">
+           <iframe width="100%" height="400" src="https://www.youtube.com/embed/8YA47dCXcHw?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
+    </div>
+    </div>
+    
+      <a class="btn-close trigger fa fa-close" href="javascript:;" onClick="toggleVideo1('hide');"></a>
+
+  </div>
+</div>
+<div class="modal-wrapper1">
+  <div class="modal">
+    
+    <div class="content">
+    <div class="videocalling">
+      <div class="jq-video">
+        
+               <div class="loadingpage">
+        <div class="loadpic"> <img class="modstery" src="img/logo.png" alt="Modstery Logo" class="img-responsive logos" style="margin: 0 auto;" /> </div>
+        <div class="demo-progress-1" style="margin-bottom:10px;font-size:16px;opacity:0;font-weight:bold;color:#EE145B;">loadding please wait 0 %</div>
+        </div>
+
+      </div>
+
+        <div id="video-player">
+           <iframe width="100%" height="400" src="https://www.youtube.com/embed/E2UWX9IbwB4?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
+    </div>
+    </div>
+ 
+      <a class="btn-close trigger1 fa fa-close" href="javascript:;" onClick="toggleVideo('hide');"></a>
+
+  </div>
+</div>
+<div class="modal-wrapper2">
+  <div class="modal">
+    
+    <div class="content">
+   <div class="videocalling">
+      <div class="jq-video">
+        
+               <div class="loadingpage">
+        <div class="loadpic"> <img class="modstery2" src="img/logo.png" alt="Modstery Logo" class="img-responsive logos" style="margin: 0 auto;" /> </div>
+        <div class="demo-progress-12" style="margin-bottom:10px;font-size:16px;opacity:0;font-weight:bold;color:#EE145B;">loadding please wait 0 %</div>
+        </div>
+
+      </div>
+
+         <ul class="facebooksetprofile">
+      <li class="face-i">
+        <div class="f-i-i green"><h1 class="fa fa-phone-square overf-i"></h1></div>
+        <div class="f-i-ii red"><h1 class="fa fa-phone-square overf-i"></div>
+        <div class="f-i-iii green"><h1 class="fa fa-phone-square overf-i"></div>
+      </li>
+      <li class="face-i">
+        <div class="f-i-i x gray"><h1 class="fa fa-phone-square overf-i"></div>
+        <div class="f-i-ii xx red"><h1 class="fa fa-phone-square overf-i"></div>
+        <div class="f-i-iii xxx green"><h1 class="fa fa-phone-square overf-i"></div>
+      </li>
+      <li class="face-i">
+        <div class="f-i-i z green"><h1 class="fa fa-phone-square overf-i"></div>
+        <div class="f-i-ii zz gray"><h1 class="fa fa-phone-square overf-i"></div>
+        <div class="f-i-iii zzz green"><h1 class="fa fa-phone-square overf-i"></div>
+      </li>
+    </ul>
+        
+    </div>
+    </div>
+ 
+      <a class="btn-close trigger2 fa fa-close" href="javascript:;"></a>
+
+  </div>
+</div>
+<div class="modal-wrapper3">
+  <div class="modal">
+   
+    <div class="content">
+    <div class="videocalling">
+      <div class="jq-video">
+        
+               <div class="loadingpage">
+        <div class="loadpic"> <img class="modstery3" src="img/logo.png" alt="Modstery Logo" class="img-responsive logos" style="margin: 0 auto;" /> </div>
+        <div class="demo-progress-13" style="margin-bottom:10px;font-size:16px;opacity:0;font-weight:bold;color:#EE145B;">loadding please wait 0 %</div>
+        </div>
+
+      </div>
+
+        <div id="video-player2">
+           <iframe width="100%" height="400" src="https://www.youtube.com/embed/NOBFcKqz-h8?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
+    </div>
+    </div>
+
+      <a class="btn-close trigger3 fa fa-close" href="javascript:;" onClick="toggleVideo2('hide');"></a>
+
+  </div>
+</div>
+  <div id="login-menu">
+  <div class="login-menu-tablet">
+  <div class="login-menu">
+    <h2 class="welcome-first">เข้าสู่ระบบ</h2>
+    <form>
+    <input type="text" class="usename" placeholder="ชื่อผู้ใช้งาน">
+    <input type="password" class="password" placeholder="รหัสผ่าน" pattern="\w{14}" title="14 character password">
+    <a href="#">สมัครสมาชิก</a>
+    <a href="#">ลืมรหัสผ่าน?</a>
+    <button type="reset" value="Submit" class="loginbotton">เข้าสู่ระบบ</button>
+    </form>
+    <button class="facebook-login"><div class=" fa fa-facebook" style="margin-right: 10px; margin-left: -6px;"></div><h>Login with facebook</h></button>
+    <button class="twitter-login"><div class=" fa fa-twitter"></div><h>Login with twitter</h></button>
+  </div></div>
+  <div class="login_menu_tablet">
+    <button class="facebook-login menu_tablet"><div class=" fa fa-facebook awesome_tablet"></div><h>Login with facebook</h></button>
+    <button class="twitter-login menu_tablet"><div class=" fa fa-twitter awesome_tablet"></div><h>Login with twitter</h></button>
+  </div>
+  </div>
+  <div class="cc-content madame">
+    <div class="navigation-bars navigation-bar">
+        <div class="bar">
+          <button class="navbox-triggers navbox-trigger"><i class="fa fa-comments-o"></i></button>
+        </div>
+        <div class="phonepadding">
+        
+          <a href="javascript:;" class="navbox-phones trigger1 btn-primary vdplay1" onclick="mainDemo(),toggleVideo();"><i class="fa fa-phone"></i></a>
+        </div>
+      <div class="navbox" style="position: absolute; top: 0;">
+        <div class="navbox-tiles">
+          <div class="togglelist">
+          <div class="chatname madamemodchat">MADAME MOD</div>
+          
+          <div class="chatinput">
+            
+             <div class="chatbox-container">
+      <div class="chatbox">
+            <div class="autotext"><div class="autosendpic madame-autopicsd"></div><div class="autosendtext">สวัสดี,ฉันมาดามด 
+นี่เป็นระบบตอบกลับอัตโนมัติ ฝากข้อความถึงฉันได้นะเหวย....</div></div>
+        </div>
+          <input type="text" class="chat-input" placeholder="พิมพ์ข้อความ">
+        <a class="send" style="cursor:pointer;"> <h class="fa fa-chevron-right"></h> </a>
+        </div>
+
+
+          </div>
+          </div>
+        </div>
+    </div>
+  <div class="chatstatus"><div class="fa fa-circle"></div>MADAME IS OFFLINE</div>
+    <div class="chatboxs">
+      SEE ADMIN PROFILE
+      <div class="chatname madamemod">MADAME MOD</div>
+    </div>
+  </div>
+  </div>
+  
+  <div class="cc-content admin">
+    <div class="navigation-bars1 navigation-bar">
+        <div class="bar">
+          <button class="navbox-triggers1 navbox-trigger"><i class="fa fa-comments-o"></i></button>
+        </div>
+        <div class="phonepadding">
+          <a href="javascript:;" class="navbox-phones trigger btn-primary" onclick="mainDemo1(),toggleVideo1();"><i class="fa fa-phone"></i></a>
+        </div>
+      <div class="navbox" style="position: absolute; top: 0;">
+        <div class="navbox-tiles">
+          <div class="togglelist">
+          <div class="chatname madamemodchat">ADMIN</div>
+          
+          <div class="chatinput">
+            
+              <div class="chatbox-container1">
+          <div class="chatbox1">
+          <div class="autotext"><div class="autosendpic admincross"></div><div class="autosendtext">สวัสดี,ฉันแอดมิน 
+นี่เป็นระบบตอบกลับอัตโนมัติ ฝากข้อความถึงฉันได้นะเหวย....</div></div>
+        </div>
+          <input type="text" class="chat-input1" placeholder="พิมพ์ข้อความ">
+        <a class="send1" style="cursor:pointer;"> <h class="fa fa-chevron-right"></h> </a>
+        </div>
+
+
+          </div>
+          </div>
+        </div>
+    </div>
+  <div class="chatstatus"><div class="fa fa-circle busycircle"></div>ADMIN IS BUSY</div>
+    <div class="chatboxs">
+      SEE ADMIN PROFILE
+      <div class="chatname madamemod">ADMIN</div>
+    </div>
+  </div>
+  </div>
+
+  <div class="cc-content memberuser">
+    <div class="navigation-bars2 navigation-bar">
+        <div class="bar">
+          <button class="navbox-triggers2 navbox-trigger"><i class="fa fa-comments-o"></i></button>
+        </div>
+        <div class="phonepadding">
+          <button class="navbox-phones trigger2 btn-primary" onclick="mainDemo2();" href="javascript:;"><i class="fa fa-phone"></i></button>
+        </div>
+      <div class="navbox" style="position: absolute; top: 0;">
+        <div class="navbox-tiles">
+          <div class="togglelist">
+          <div class="chatname madamemodchat">23 USER</div>
+           <div class="chatiserbox">
+          <a href="#"><div class="userready">
+          <div class="picprofileready ipcp"></div>
+          <div class="userfirstenlastname">Nattapat Triyasut</div>
+          <div class="statusbuttonready onlinecircle fa fa-circle"></div>
+        </div></a>
+
+        <a href="#"><div class="userready">
+          <div class="picprofileready iipcp"></div>
+          <div class="userfirstenlastname">Mon Pornpimon</div>
+          <div class="statusbuttonready awaycircle fa fa-circle"></div>
+        </div></a>
+
+        <a href="#"><div class="userready">
+          <div class="picprofileready iiipcp"></div>
+          <div class="userfirstenlastname">Tawan Wanudom...</div>
+          <div class="statusbuttonready onlinecircle fa fa-circle"></div>
+        </div></a>
+
+        <a href="#"><div class="userready">
+          <div class="picprofileready iiiipcp"></div>
+          <div class="userfirstenlastname">เราไก่ พลังสายฟ้า</div>
+          <div class="statusbuttonready onlinecircle fa fa-circle"></div>
+        </div></a>
+
+         <a href="#"><div class="userready">
+          <div class="picprofileready vpcp"></div>
+          <div class="userfirstenlastname">เห็นงานเป็นลม</div>
+          <div class="statusbuttonready busycircle fa fa-circle"></div>
+        </div></a>
+
+        <a href="#"><div class="userready">
+          <div class="picprofileready vipcp"></div>
+          <div class="userfirstenlastname">Silpakorn University</div>
+          <div class="statusbuttonready awaycircle fa fa-circle"></div>
+        </div></a>
+
+        <a href="#"><div class="userready">
+          <div class="picprofileready viipcp"></div>
+          <div class="userfirstenlastname">หลบไป การบ้านมา</div>
+          <div class="statusbuttonready busycircle fa fa-circle"></div>
+        </div></a>
+
+        <a href="#"><div class="userready">
+          <div class="picprofileready viiipcp"></div>
+          <div class="userfirstenlastname">ปลาจาระเมตร</div>
+          <div class="statusbuttonready onlinecircle fa fa-circle"></div>
+        </div></a>
+
+         <a href="#"><div class="userready">
+          <div class="picprofileready xpcp"></div>
+          <div class="userfirstenlastname">สัตว์โลกอมตีน</div>
+          <div class="statusbuttonready onlinecircle fa fa-circle"></div>
+        </div></a>
+
+        <a href="#"><div class="userready">
+          <div class="picprofileready xipcp"></div>
+          <div class="userfirstenlastname">ชาละวันเองจะใครละ</div>
+          <div class="statusbuttonready onlinecircle fa fa-circle"></div>
+        </div></a>
+
+        <a href="#"><div class="userready">
+          <div class="picprofileready xiipcp"></div>
+          <div class="userfirstenlastname">ชาละทูเองจะใครละ</div>
+          <div class="statusbuttonready busycircle fa fa-circle"></div>
+        </div></a>
+
+        <a href="#"><div class="userready">
+          <div class="picprofileready xiiipcp"></div>
+          <div class="userfirstenlastname">ชาละทีเองจะใครละ</div>
+          <div class="statusbuttonready onlinecircle fa fa-circle"></div>
+        </div></a>
+
+        <a href="#"><div class="userready">
+          <div class="picprofileready xiiiipcp"></div>
+          <div class="userfirstenlastname">ชาละโฟร์เองจะใครละ</div>
+          <div class="statusbuttonready awaycircle fa fa-circle"></div>
+        </div></a>
+      </div>
+          </div>
+        </div>
+    </div>
+  <div class="chatstatus"><div class="fa fa-circle onlinecircle"></div>23 FRIEND IS ONLINE</div>
+    <div class="chatboxs">
+      SEE ALL USER
+      <div class="chatname madamemod">23 USER</div>
+    </div>
+  </div>
+  </div>
+
+  <div class="cc-content developer">
+    <div class="navigation-bars3 navigation-bar">
+        <div class="bar">
+          <button class="navbox-triggers3 navbox-trigger"><i class="fa fa-comments-o"></i></button>
+        </div>
+        <div class="phonepadding">
+          <a href="javascript:;" class="navbox-phones trigger3 btn-primary" onclick="mainDemo3(),toggleVideo2();"><i class="fa fa-phone"></i></a>
+        </div>
+      <div class="navbox" style="position: absolute; top: 0;">
+        <div class="navbox-tiles">
+          <div class="togglelist">
+          <div class="chatname madamemodchat">AMAZING MOD</div>
+         
+          <div class="chatinput">
+            
+             <div class="chatbox-container2">
+          <div class="chatbox2">
+           <div class="autotext"><div class="autosendpic teammodsxteam"></div><div class="autosendtext dvlopertext">สวัสดี,พวกเราทีมงานเว็บไซต์นี้ 
+นี่เป็นระบบตอบกลับอัตโนมัติ ฝากข้อความถึงฉันได้นะเหวย....</div></div>
+        </div>
+          <input type="text" class="chat-input2" placeholder="พิมพ์ข้อความ">
+        <a class="send2" style="cursor:pointer;"> <h class="fa fa-chevron-right"></h> </a>
+        </div>
+
+          </div>
+          </div>
+        </div>
+    </div>
+  <div class="chatstatus"><div class="fa fa-circle awaycircle"></div>DEVOLOPER IS AWAY</div>
+    <div class="chatboxs">
+      SEE TEME PROFILE
+      <div class="chatname madamemod">AMAZING MOD</div>
+    </div>
+  </div>
+  </div>
+  <div class="wrapperbox4">
+    <div class="box4-1-box1"><p class="txt-box4-1-1">BE GORGEOUS</p><p class="txt-box4-1-2">BE MADAME MOD</p></div>
+    <div class="box4-1-box2"></div>
+    <div class="box4-1-box3"><!-- <p class="txt-box4-3-1"> -->ภายใต้เมคอัพหนาและขนตาที่เปรียบประหนึ่งกันสาด
+      บนใบหน้ารวมถึงชุดแต่งกายที่มาจากไอเดียสร้าง
+      สรรสุดบรรเจิดที่เห็นทีไร
+      เป็นอันต้องเรียกเสียงแฟลชและสายตาพร้อม
+      รอยยิ้มจากทุกคนได้ทุกครั้งนั้น มาดามมดได้ซ่อนมุมมองความคิดสุดพิเศษเอาไว้ มาทำความรู้จักกับ มาดามมด
+      ให้มากขึ้นกันดีกว่า จะได้รู้ว่า มาดามมดมีของมากกว่าการเอนเตอร์เทนคนจริงๆ<!-- </p> -->
+      <div class="box4-1-box4"><p class="txt-box4-4-1">อ่านต่อ></p></div>
+    </div><!-- box4-1-box3 -->
+
+    <div class="box4-2-box1"><p class="txt-box4-2-1">latest</p><p class="txt-box4-2-2">NEWS</p></div>
+
+
+        <div id="wowslider-container0">
+          <div class="ws_images"><ul>
+              <li><img src="img/slidebox4-1.jpg" alt="bongkoch" title="bongkoch" id="wows0_0"/></li>
+              <li><img src="img/slidebox4-2.jpg" alt="bigbike" title="bigbike" id="wows0_1"/></li>
+              <li><img src="img/slidebox4-3.jpg" alt="MazeRunner" title="MazeRunner" id="wows0_2"/></li>
+              <li><img src="img/slidebox4-4.jpg" alt="wowslider.com" title="kaneki" id="wows0_3"/></li>
+              <li><img src="img/slidebox4-5.jpg" alt="JAPAN" title="JAPAN" id="wows0_4"/></li>
+            </ul></div>
+
+        </div>
+
+          <script type="text/javascript" src="slide-src/wowslider.js"></script>
+          <script type="text/javascript" src="slide-src/script.js"></script>
+
+          <div class="wrapperbox5">
+    <div class="box5-3">
+      <div class="box5-2"><p class="txt-box5-2-1">ตารางงาน<br>ตุลาคม</p></div>
+
+      <div class="box5-1">
+        <div class="txt-box5-1-1-sub"><div class="txt-tt">19 ตุลาคม GTH มาลีเพื่อนรัก</div>
+        <div class="txt-tt txt-tx">20 ตุลาคม รายการภาษาพลาซ่า</div>
+        <div class="txt-tt ">21 ตุลาคม ช่อง 3 รายการ...</div>
+        <div class="txt-tt txt-tx">22 ตุลาคม GTH มาลีเพื่อนรัก</div>
+        <div class="txt-tt">24 ตุลาคม GTH มาลีเพื่อนรัก</div>
+        </div>
+    </div>
+    
+
+  </div><!-- wrapperbox5 -->
+  </div>
+  <div class="box-map">
+    <div class="location-btn"></div>
+    <div id="googleMap"></div>
+  </div>
+
+  <div class="box-twitupdate">
+    <div class="box-compare-twit">
+    <div class="twit-update-btn"><img src="img/twit-update-btn.jpg"></div>
+
+    <div class="scrollbar">
+      <a class="twitter-timeline" href="https://twitter.com/MadameMod_UFO" data-widget-id="666020536347000832">Tweets by @MadameMod_UFO</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div> <!--end scrollbar-->  
+
+
+                
+        <div class="btn-twit-more">
+            <p class="txt-twit-more">MORE</p>
+        </div>
+            
+  </div> </div><!-- end box-twitupdate -->
+
+
+
+
+
+  <div class="box-igupdate">
+  <div class="box-compare-twit">
+    <div class="ig-update-btn"><img src="img/ig-update-btn.jpg"></div>
+
+    <div class="scrollbar2">
+   <!-- SnapWidget -->
+<script src="http://snapwidget.com/js/snapwidget.js"></script>
+<iframe src="http://snapwidget.com/in/?h=bWFkYW1lbW9kfGlufDEyNXwzfDYwfHxub3wxMHxmYWRlSW58b25TdGFydHxub3x5ZXM=&ve=231115" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
+
+    </div> <!--end scrollbar--> 
+
+    <div class="btn-ig-more">
+            <p class="txt-ig-more">MORE</p>
+        </div>            
+  </div> </div><!-- end box-igupdate -->
+
+
+  <div class="footer">
+    <div class="footter-icon">
+      <ul class="social-footer">
+        <a href="#"><li class="face-ft fa fa-facebook-square"></li></a>
+        <a href="#"><li class="face-ft fa fa-twitter"></li></a>
+        <a href="#"><li class="face-ft fa fa-instagram"></li></a>
+      </ul>
+      <div class="ip-email">
+      <form>
+      <input type="email" class="ip-add-em" placeholder="กรอก e-mail เพื่อรับข่าวสาร">
+      <button type="reset" class="cancle-ip">ยกเลิก</button>
+      <button type="submit" class="cancle-ip marginleft">ส่ง</button>
+      </form>
+      </div>
+    </div>
+    <ul class="linken-team">
+        <li class="lkt"><a href="#">Contact </a> I </li>
+        <li class="lkt"><a href="#">&nbsp; Jobs</a> I </li>
+        <li class="lkt"><a href="#">&nbsp; Disclaimer</a> I </li>
+        <li class="lkt"><a href="#">&nbsp; Privacy</a> I </li>
+        <li class="lkt"><a href="#">&nbsp; Advertisement</a> I </li>
+    </ul>
+    <div class="tellme">ติดต่อทีมงาน Tel: 02-123-4567<br>
+modstery@outlook.com</div>
+    <div class="cpr">Copyright  2015 modstery.com All rights reserved</div>
+  </div> <!-- end footer -->
+
+  
+  </div><!-- wrapperbox4 -->
+
+<!-- -------------------------Script--------------------------------- --> <script type="text/javascript" src="js/mute.js"></script>
+<script type="text/javascript" src="js/mute1.js"></script>
+<script type="text/javascript" src="js/mute2.js"></script>
+<script src="js/jquery2.1.3.min.js"></script>
+<script>
+$(document).ready(function () {
+
+    $('.menu-icon').click(function () {
+        if ($('#navigator').css("right") == "-250px") {
+            $('#navigator').animate({right: '0px'}, 350);
+            $('.menu-icon').animate({right: '237px'}, 350);
+            $('.menu-text').animate({right: '300px'}, 350).empty().text("Close");
+        } 
+        else  {
+            $('#navigator').animate({right: '-250px'}, 350); 
+            $(this).animate({right: '0px'}, 350);
+            $('.menu-text').animate({right: '50px'}, 350).empty().text("Menu");
+
+        } 
+  });
+    $('.menu-icon').click(function () {
+              $(this).toggleClass("on"); });
+});
+</script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- //////******////// -->
+<script>
+(function () {
+    $(document).ready(function () {
+        $('.navbox-triggers').click(function () {
+            return $('.navigation-bars').toggleClass('navbox-open');
+        });
+        return $(document).on('click', function (e) {
+            var $target;
+            $target = $(e.target);
+            if (!$target.closest('.navbox').length && !$target.closest('.navbox-triggers').length) {
+                return $('.navigation-bars').removeClass('navbox-open');
+            }
+        });
+    });
+}.call(this));
+</script>
+
+<script>
+(function () {
+    $(document).ready(function () {
+        $('.navbox-triggers1').click(function () {
+            return $('.navigation-bars1').toggleClass('navbox-open');
+        });
+        return $(document).on('click', function (e) {
+            var $target;
+            $target = $(e.target);
+            if (!$target.closest('.navbox').length && !$target.closest('.navbox-triggers1').length) {
+                return $('.navigation-bars1').removeClass('navbox-open');
+            }
+        });
+    });
+}.call(this));
+</script>
+
+<script>
+(function () {
+    $(document).ready(function () {
+        $('.navbox-triggers2').click(function () {
+            return $('.navigation-bars2').toggleClass('navbox-open');
+        });
+        return $(document).on('click', function (e) {
+            var $target;
+            $target = $(e.target);
+            if (!$target.closest('.navbox').length && !$target.closest('.navbox-triggers2').length) {
+                return $('.navigation-bars2').removeClass('navbox-open');
+            }
+        });
+    });
+}.call(this));
+</script>
+
+<script>
+(function () {
+    $(document).ready(function () {
+        $('.navbox-triggers3').click(function () {
+            return $('.navigation-bars3').toggleClass('navbox-open');
+        });
+        return $(document).on('click', function (e) {
+            var $target;
+            $target = $(e.target);
+            if (!$target.closest('.navbox').length && !$target.closest('.navbox-triggers3').length) {
+                return $('.navigation-bars3').removeClass('navbox-open');
+            }
+        });
+    });
+}.call(this));
+</script>
+
+
+
+<script>
+
+        var Dropdown = (function($) {
+
+          var $body = $('body'),
+            $dropdown = $body.find('.dropdown'),
+            $trigger = $dropdown.find('button'),
+            $list = $dropdown.find('ul'),
+            $firstLink = $list.find('li:first a'),
+            $lastLink = $list.find('li:last a');
+
+          var init = function() {
+            ariaSetup();
+            bindEvents();
+          }
+
+          var ariaSetup = function() {
+            var listId = $list.attr('id');
+
+            $trigger.attr({
+              'aria-expanded': 'false',
+              'aria-controls': listId
+            });
+
+            $list.attr({
+              'aria-hidden': true
+            });
+          }
+
+          var bindEvents = function() {
+            $trigger.on('click', toggleDropdown);
+
+            $firstLink.on('keydown', function() {
+              if (event.which === 9 && event.shiftKey === false) {
+                return;
+              } else if (event.which === 9 && event.shiftKey === true) {
+                toggleDropdown();
+              }
+            });
+
+            $lastLink.on('keydown', function() {
+              if (event.shiftKey) return;
+              toggleDropdown();
+            });
+          }
+
+          var toggleDropdown = function() {
+            var hidden = $list.attr('aria-hidden') === 'true' ? false : true,
+              expanded = !hidden;
+
+            $trigger.attr('aria-expanded', expanded);
+            $list.attr('aria-hidden', hidden);
+          }
+
+          return {
+            init: init
+          }
+
+        })(jQuery);
+
+        Dropdown.init();
+</script>
+
+</script>
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.zoomslider.min.js"></script>
+
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+  <script src="js/bots.js"></script>
+  <script src="js/bots1.js"></script>
+  <script src="js/bots2.js"></script>
+
+
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <script src="js/popcallup.js"></script>
+        <script src="js/popcallup1.js"></script>
+        <script src="js/popcallup2.js"></script>
+        <script src="js/popcallup3.js"></script>
+
+
+<script src="js/loadgo.js"></script>
+<script src="js/hideload1.js"></script>
+<script>
+var cocacolaInterval;
+function mainDemo () {
+  $('.demo-msg-1').animate({
+    'opacity': '0'
+  });
+  $('.demo-progress-1').animate({
+    'opacity': '1'
+  });
+  var p = 0;
+  $('.modstery').loadgo('resetprogress');
+  $('.demo-progress-1').html('0%');
+  window.setTimeout(function () {
+    cocacolaInterval = window.setInterval(function (){
+      if ($('.modstery').loadgo('getprogress') == 100) {
+        window.clearInterval(cocacolaInterval);
+        $('.demo-msg-1').animate({
+          'opacity': '1'
+        });
+        $('.demo-progress-1').animate({
+          'opacity': '0'
+        });
+      }
+      else {
+        var prog = p*10;
+        $('.modstery').loadgo('setprogress', prog);
+        $('.demo-progress-1').html(prog + '%');
+        p++;
+      }
+    }, 150);
+  }, 300);
+};
+$(window).load(function () {
+
+  $(".modstery").load(function() {
+    // Main demo
+    $('.modstery').loadgo();
+  }).each(function() {
+    if(this.complete) $(this).load();
+  });
+
+
+});
+</script>
+
+<script>
+var cocacolaInterval;
+function mainDemo1 () {
+  $('.demo-msg-11').animate({
+    'opacity': '0'
+  });
+  $('.demo-progress-11').animate({
+    'opacity': '1'
+  });
+  var p = 0;
+  $('.modstery1').loadgo('resetprogress');
+  $('.demo-progress-11').html('0%');
+  window.setTimeout(function () {
+    cocacolaInterval = window.setInterval(function (){
+      if ($('.modstery1').loadgo('getprogress') == 100) {
+        window.clearInterval(cocacolaInterval);
+        $('.demo-msg-11').animate({
+          'opacity': '1'
+        });
+        $('.demo-progress-11').animate({
+          'opacity': '0'
+        });
+      }
+      else {
+        var prog = p*10;
+        $('.modstery1').loadgo('setprogress', prog);
+        $('.demo-progress-11').html(prog + '%');
+        p++;
+      }
+    }, 150);
+  }, 300);
+};
+$(window).load(function () {
+
+  $(".modstery1").load(function() {
+    // Main demo
+    $('.modstery1').loadgo();
+  }).each(function() {
+    if(this.complete) $(this).load();
+  });
+
+
+});
+</script>
+
+<script>
+var cocacolaInterval;
+function mainDemo2 () {
+  $('.demo-msg-12').animate({
+    'opacity': '0'
+  });
+  $('.demo-progress-12').animate({
+    'opacity': '1'
+  });
+  var p = 0;
+  $('.modstery2').loadgo('resetprogress');
+  $('.demo-progress-12').html('0%');
+  window.setTimeout(function () {
+    cocacolaInterval = window.setInterval(function (){
+      if ($('.modstery2').loadgo('getprogress') == 100) {
+        window.clearInterval(cocacolaInterval);
+        $('.demo-msg-12').animate({
+          'opacity': '1'
+        });
+        $('.demo-progress-12').animate({
+          'opacity': '0'
+        });
+      }
+      else {
+        var prog = p*10;
+        $('.modstery2').loadgo('setprogress', prog);
+        $('.demo-progress-12').html(prog + '%');
+        p++;
+      }
+    }, 150);
+  }, 300);
+};
+$(window).load(function () {
+
+  $(".modstery2").load(function() {
+    // Main demo
+    $('.modstery2').loadgo();
+  }).each(function() {
+    if(this.complete) $(this).load();
+  });
+
+
+});
+</script>
+<script>
+var cocacolaInterval;
+function mainDemo3 () {
+  $('.demo-msg-13').animate({
+    'opacity': '0'
+  });
+  $('.demo-progress-13').animate({
+    'opacity': '1'
+  });
+  var p = 0;
+  $('.modstery3').loadgo('resetprogress');
+  $('.demo-progress-13').html('0%');
+  window.setTimeout(function () {
+    cocacolaInterval = window.setInterval(function (){
+      if ($('.modstery3').loadgo('getprogress') == 100) {
+        window.clearInterval(cocacolaInterval);
+        $('.demo-msg-13').animate({
+          'opacity': '1'
+        });
+        $('.demo-progress-13').animate({
+          'opacity': '0'
+        });
+      }
+      else {
+        var prog = p*10;
+        $('.modstery3').loadgo('setprogress', prog);
+        $('.demo-progress-13').html(prog + '%');
+        p++;
+      }
+    }, 150);
+  }, 300);
+};
+$(window).load(function () {
+
+  $(".modstery3").load(function() {
+    // Main demo
+    $('.modstery3').loadgo();
+  }).each(function() {
+    if(this.complete) $(this).load();
+  });
+
+
+});
+</script>
+
+<!-- -------------------------------------------------end script--------------------------------------- -->
+</body>
+</html>
